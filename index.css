@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 95%;
+   
+    
+   
+}
+.container{
+background-color: rgb(155, 159, 163);
+}
+.heading{
+    text-align: center;
+}
+.maintext{
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+.inputsearch{
+    font-size: 1.6rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 0;
+    width: 370px;
+}
+#searchbutton{
+    font-size: 1.6rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(146, 146, 26);
+    color: whitesmoke;
+    margin-top: 5px;
+    width:100px;
+    outline:none;
+    cursor: pointer;
+}
+.infopara{
+    color: rgba(0, 0, 0, 0.481) ;
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+.imagedbba{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 50px;
+    grid-gap: 20px;
+    text-align: center;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 4px;
+
+}
+.pagebtn{
+    height: 40px;
+    width: 90px;
+    border: none;
+    background-color: rgb(146, 146, 26);
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    border-radius:22px ;
+}
+.photographer{
+    margin-top: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    margin-right: 50px;
+    text-align: center;
+}
+.photoanch{
+    text-decoration: none;
+}
+.hidden{
+    display: none;
+}
+@media(max-width:650px){
+.imagedbba {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+}
+
+.inputsearch {
+    width: 320px;
+}
+.image{
+    height: 250px;
+    width: 250ox;
+    border-radius: 4px;
+}
+
+}
